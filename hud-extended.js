@@ -158,8 +158,8 @@ export async function main(ns) {
             colorByClassName(".HUDE_BckDr", theme['combat'])
             colorByClassName('.' + classNoBackdoor, theme['hack'])
             colorByClassName('.' + classContract, theme['money'])
-            colorByClassName('.' + classFaction, theme['cha'])
             colorByClassName('.' + classUnrooted, theme['hp'])
+            colorByClassName('.' + classFaction, theme['cha'])
 
             // Bind onClick functionallity to insert Terminal command
             doc.querySelectorAll('.' + classLink).forEach(el => {
